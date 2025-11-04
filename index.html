@@ -3,17 +3,45 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>אתר הקורס של אדם – בקרוב</title>
-    <meta name="description" content="פה יוקם אתר הקורס של אדם – שיעזור לאנשים לקחת הפסקה ולהתרכז בחיים שלהם על מנת להשתחרר מסבל." />
+    <title>רגע של שקט – Take5.LIFE</title>
+    <meta name="description" content="Take5.LIFE – קורס לאנשים שרוצים רגע לעצור ולהיזכר בחיים עצמם." />
     <style>
-      html, body { height: 100%; margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans Hebrew", "Rubik", sans-serif; background: #0f172a; color: #e2e8f0; }
+      html, body {
+        height: 100%;
+        margin: 0;
+        font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
+        background: linear-gradient(160deg, #f2e7dc, #e9dcc3 35%, #d4c2a3 100%);
+        background-attachment: fixed;
+        background-image: radial-gradient(circle at 25% 15%, rgba(243, 224, 198, 0.7) 0%, transparent 50%),
+                          radial-gradient(circle at 80% 85%, rgba(221, 195, 164, 0.6) 0%, transparent 60%),
+                          linear-gradient(160deg, #f2e7dc, #e9dcc3 35%, #d4c2a3 100%);
+        color: #1e293b;
+      }
       .wrap { min-height: 100%; display: grid; place-items: center; padding: 2rem; }
-      .card { text-align: center; max-width: 780px; background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(148, 163, 184, 0.25); border-radius: 20px; padding: 2.25rem; box-shadow: 0 10px 30px rgba(0,0,0,.35); backdrop-filter: blur(6px); }
-      h1 { font-size: clamp(1.6rem, 2.6vw, 2.2rem); margin: 0 0 0.75rem; letter-spacing: .2px; }
-      p { font-size: clamp(1.05rem, 1.2vw, 1.15rem); line-height: 1.8; margin: 0; color: #cbd5e1; }
-      .badge { display: inline-block; margin-bottom: 1rem; padding: .35rem .7rem; font-size: .9rem; border: 1px solid rgba(148,163,184,.35); border-radius: 999px; color:#e2e8f0; }
-      footer { margin-top: 1.25rem; font-size: .9rem; color: #94a3b8; }
-      a { color: #a78bfa; text-decoration: none; }
+      .card {
+        text-align: center;
+        max-width: 720px;
+        background: rgba(255, 255, 255, 0.85);
+        border: 1px solid rgba(203, 213, 225, 0.4);
+        border-radius: 24px;
+        padding: 3rem 2.5rem;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        backdrop-filter: blur(10px);
+      }
+      h1 { font-size: clamp(2rem, 3vw, 2.9rem); margin: 0 0 1.1rem; color: #3b2f1e; }
+      p { font-size: clamp(1.15rem, 1.5vw, 1.35rem); line-height: 1.6; margin: 0; color: #4b3d2d; white-space: pre-line; }
+      .badge {
+        display: inline-block;
+        margin-bottom: 1.1rem;
+        padding: .5rem 1.1rem;
+        font-size: 1rem;
+        border: 1px solid rgba(170,140,90,0.4);
+        border-radius: 999px;
+        color: #5a4630;
+        background: rgba(245, 230, 210, 0.7);
+      }
+      footer { margin-top: 1.5rem; font-size: .95rem; color: #7c6750; }
+      a { color: #b87d3f; text-decoration: none; }
       a:hover { text-decoration: underline; }
     </style>
   </head>
@@ -21,10 +49,11 @@
     <div class="wrap">
       <main class="card" role="main">
         <div class="badge">בקרוב</div>
-        <h1>פה יוקם אתר הקורס של אדם</h1>
-        <p>הקורס יעזור לאנשים לקחת הפסקה ולהתרכז בחיים שלהם, כדי להשתחרר מסבל.</p>
+        <h1>רגע של שקט</h1>
+        <p>לא עוד אתר. מרחב קטן של נשימה.
+מקום להזכיר לעצמך לעצור, לחשוב פחות, ולהיות קצת יותר.</p>
         <footer>
-          <span>© <span id="y"></span> Adam Course</span>
+          <span>© · <span id="y"></span> · Take5.LIFE · By Adam</span>
         </footer>
       </main>
     </div>
